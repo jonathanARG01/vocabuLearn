@@ -50,10 +50,6 @@
         description: 'Una manzana verde'
     }
 
-
-
-
-
     const evaluate = computed( () => {
 
         if ( isHuman.value ) {
