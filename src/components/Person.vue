@@ -66,7 +66,6 @@
 
     });
 
-    // Metodo - Methods
     const toggleHuman = () => {
         isHuman.value = !isHuman.value;
     }
@@ -136,7 +135,7 @@
         <h1>Hola {{ name.toUpperCase() }}</h1>
         <button v-on:click="toggleHuman">Click on Me</button>
         <p :class="evaluate"> {{ isHuman ? 'Si es humano' : 'No es humano' }} </p>
-        <p v-if="isHuman">Como eres humano vienes del planeta tierra</p>
+        <p v-if="isHuman">Vienes del planeta tierra</p>
         <p v-else>No eres humano, ¿de que planeta vienes?</p>
     
     </div>
